@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>Digital Pet MSTU 5013</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+
+    <h1>Welcome to Rowlet's emotional world!</h1>
+
+
+    <!-- Insert Rowlet's emotion buttons-->
+    <div>
+      <emotions></emotions>
+    </div>
+
+    <!-- riot tags -->
+    <script type="riot/tag" src="./tags/rowlet.tag"></script>
+    <script type="riot/tag" src="./tags/emote-button.tag"></script>
+    <script type="riot/tag" src="./tags/emotions.tag"></script>
+    <!-- Load RiotJS and the COMPILER, which will transform your tags into JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.8.1/riot+compiler.js"></script>
+
+    <!-- You are not mounting RIOT -->
+    <script>
+      riot.mount('*');
+    </script>
+
+  </body>
+
+</html>

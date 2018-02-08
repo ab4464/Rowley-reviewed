@@ -1,0 +1,14 @@
+body {
+  background: url("background.jpg") no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+}
